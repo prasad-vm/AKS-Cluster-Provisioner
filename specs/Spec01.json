@@ -1,0 +1,11 @@
+{
+    "clusterName": "my-cluster",
+    "env": "dev",
+    "workerNodeCount": 3,
+    "controlPlaneCount": 1,
+    "region": "us-east-1",
+    "nodeType": "t2.medium",
+    "kubernetesVersion": "1.20",
+    "networkPolicy": "calico",
+    "storageClass": "gp2"
+  }
